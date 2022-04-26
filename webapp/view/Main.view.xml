@@ -1,0 +1,82 @@
+<mvc:View
+    controllerName="capacitacionnamespace.capacitacionui5.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    
+        <App id="app">
+         <VBox id="VBox">
+            <Text id="textoprueba" text="Hola Mundo"/>
+           	<Button id="button1" text="Default" press="Alert" />
+			<Button id="button2" type="Reject" text="Reject" press="onPress" />
+
+          <Table id="tableid" items="{path: 'modeloPrueba>/' }"  >
+
+            <columns>
+                <Column id="uno"  >
+                    <Text id="textid" text="Cration Date"/>
+
+                </Column>
+
+                <Column id="dos"  >
+                    <Text id="textdos" text="ID"/>
+
+                </Column>
+
+                 <Column id="tres"  >
+                    <Text id="texttres" text="Materials"/>
+
+                </Column>
+
+                 <Column id="cuatro"  >
+                    <Text id="textcuatro" text="Product Name"/>
+
+                </Column>
+
+                 <Column id="cinco"  >
+                    <Text id="textcinco" text="Product Origin"/>
+
+                </Column>
+
+
+
+
+
+            </columns>
+            <items>
+                <ColumnListItem id="Listaitems" >
+                <cells>
+                	<Text id="textocells1"
+						text="{modeloPrueba>creation_date}" />
+
+
+                    <Text id="textocells2"
+						text="{modeloPrueba>id}" />
+
+
+                     <Text id="textocells3"
+						text="{modeloPrueba>materials}" /> 
+
+                  <Text id="textocells4"
+						text="{modeloPrueba>product_name}" /> 
+
+                     <Text id="textocells5"
+						text="{modeloPrueba>product_origin}" />      
+
+                   
+
+                 
+                </cells>
+                </ColumnListItem>
+             </items>
+
+            </Table>
+
+         </VBox>
+
+           
+        </App>
+    
+</mvc:View>

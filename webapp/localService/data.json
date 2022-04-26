@@ -1,0 +1,12 @@
+[{"id":1,"product_name":"Dragline","product_origin":"China","materials":"Granite","price":"37029","creation_date":"11/11/2021"},
+    {"id":2,"product_name":"Grader","product_origin":"China","materials":"Wood","price":"84","creation_date":"03/01/2022"},
+    {"id":3,"product_name":"Trencher","product_origin":"New Zealand","materials":"Brass","price":"26470","creation_date":"11/04/2022"},
+    {"id":4,"product_name":"Dragline","product_origin":"Brazil","materials":"Brass","price":"82","creation_date":"17/09/2021"},
+    {"id":5,"product_name":"Bulldozer","product_origin":"Indonesia","materials":"Steel","price":"5599","creation_date":"06/01/2022"},
+    {"id":6,"product_name":"Compactor","product_origin":"Greece","materials":"Glass","price":"3","creation_date":"30/09/2021"},
+    {"id":7,"product_name":"Bulldozer","product_origin":"Peru","materials":"Wood","price":"1","creation_date":"18/11/2021"},
+    {"id":8,"product_name":"Dump Truck","product_origin":"Portugal","materials":"Glass","price":"0304","creation_date":"13/06/2021"},
+    {"id":9,"product_name":"Crawler","product_origin":"Indonesia","materials":"Stone","price":"9991","creation_date":"14/04/2022"},
+    {"id":10,"product_name":"Trencher","product_origin":"Malaysia","materials":"Rubber","price":"92863","creation_date":"29/08/2021"},
+    {"id":11,"product_name":"Compactor","product_origin":"Guatemala","materials":"Plastic","price":"679","creation_date":"22/12/2021"},
+    {"id":12,"product_name":"Backhoe","product_origin":"Greece","materials":"Glass","price":"67148","creation_date":"14/11/2021"}]
